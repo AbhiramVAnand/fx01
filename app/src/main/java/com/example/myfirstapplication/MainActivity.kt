@@ -12,16 +12,6 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val but : Button = findViewById(R.id.cli)
-        but.setOnClickListener(View.OnClickListener {
-            startActivity(
-                Intent(
-                    this,
-                    MainActivity2::class.java
-                )
-            )
-            finish()
-        })
     }
 }
 
