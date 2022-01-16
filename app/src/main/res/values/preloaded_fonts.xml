@@ -2,6 +2,9 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/anonymous_pro</item>
+        <item>@font/audiowide</item>
         <item>@font/caesar_dressing</item>
+        <item>@font/catamaran_thin</item>
+        <item>@font/dosis</item>
     </array>
 </resources>
